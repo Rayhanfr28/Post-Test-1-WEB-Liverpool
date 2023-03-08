@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+header{
+    color: rgb(255, 255, 255); 
+    font-family: 'Poppins',sans-serif;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 15px;   
+}
+
+.bghitam {
+    background: black; 
+    height: 130vh; 
+    position: absolute; 
+    top:0; left: 0; right: 0;
+    opacity: 50%; 
+    z-index: -3;
+}
+
+.home img {
+        float: right; width:480px; padding-left: 80px;padding-right: 100px;
+}
+
+nav{
+    font-family: 'Poppins',sans-serif;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    float:left; 
+}
+
+a{
+    color: rgb(255, 255, 255);
+    padding: 60px;
+    padding-left: 2px;
+    padding-top: 10px; 
+}
+
+body{
+
+        background-image: url(zfoto5.jpg); 
+        background-size: cover; height: 90vh; 
+        opacity: 90%; z-index: -2; 
+        background-position: 0%;
+}
+
+.footer{
+    font-family: 'Poppins',sans-serif;
+    position: relative; 
+    margin-top: 130px;
+    padding: 70px;
+    width: 100%; 
+
+    background-color: rgb(8, 8, 8);;
+    color: rgb(255, 255, 255);
+}
+
+
+.sekali{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-style: italic;
+    padding-top: 10px;
+    padding-left: 29px;
+    font-size: 15px;
+}
+
+.abc {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 0.6em;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 54px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+}
+
+.abc:hover, .btn:focus {
+    color: #000000;
+    outline: 0;
+}
+
+.kecap {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.kecap:hover {
+    box-shadow: 0 0 40px 40px #ee0303 inset;
+}
+
+
+.join {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.join:hover {
+    box-shadow: 0 0 40px 40px #000000 inset;
+}
+
+
+.besar {
+    text-align: left; 
+    padding-left: 90px;
+    padding-top: 120px; 
+    color: white; 
+    font-weight: lighter;
+font-size: 40px;
+
+}
+
+.kecil {
+    text-align: left; 
+    padding-left: 80px;
+
+    color: white; 
+    font-weight: lighter;
+font-size: 20px;
+
+}
+

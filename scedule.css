@@ -1,0 +1,293 @@
+
+
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Chivo', sans-serif;
+  
+  background-size: cover;
+  background-color: #3d0c0c;
+}
+ 
+.doom{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  background: rgba(255,255,255,0.5);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.5s;
+  box-shadow: 0 0 0 10px rgba(255,255,255,0.2)
+}
+ 
+.doom:hover{
+  background: #fff;
+  box-shadow: 0 0 0 10px rgba(255,255,255,0.2)
+}
+ 
+.doom:before{
+  content: '';
+  position: absolute;
+  bottom: -74%;
+  left: -120%;
+  width: 100%;
+  height: 100%;
+  background: #c62bff;
+  transition: 0.5s;
+  z-index: -1;
+  box-sizing: border-box;
+  border-top: 5px solid #f2473e;
+  transform: skewX(-5deg);
+}
+ 
+.doom:hover:before{
+  left: -50%;
+}
+ 
+.doom:after{
+  content: '';
+  position: absolute;
+  bottom: -74%;
+  right: -120%;
+  width: 100%;
+  height: 100%;
+  background: #ff0000;
+  transition: 0.5s;
+  z-index: -1;
+  box-sizing: border-box;
+  border-top: 5px solid #c62bff;
+  transform: skewX(-5deg);
+}
+ 
+.doom:hover:after{
+  right:-50%;
+}
+ 
+.doom h2{
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+ 
+.doom:hover h2{
+  background: #42b6ff;
+}
+
+.doo{
+  position: absolute;
+  top:700px;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  background: rgba(255,255,255,0.5);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.5s;
+  box-shadow: 0 0 0 10px rgba(255,255,255,0.2)
+}
+ 
+.doo:hover{
+  background: #fff;
+  box-shadow: 0 0 0 10px rgba(255,255,255,0.2)
+}
+ 
+.doo:before{
+  content: '';
+  position: absolute;
+  bottom: -74%;
+  left: -120%;
+  width: 100%;
+  height: 100%;
+  background: #c62bff;
+  transition: 0.5s;
+  z-index: -1;
+  box-sizing: border-box;
+  border-top: 5px solid #f2473e;
+  transform: skewX(-5deg);
+}
+ 
+.doo:hover:before{
+  left: -50%;
+}
+ 
+.doo:after{
+  content: '';
+  position: absolute;
+  bottom: -74%;
+  right: -120%;
+  width: 100%;
+  height: 100%;
+  background: #ff0000;
+  transition: 0.5s;
+  z-index: -1;
+  box-sizing: border-box;
+  border-top: 5px solid #c62bff;
+  transform: skewX(-5deg);
+}
+ 
+.doo:hover:after{
+  right:-50%;
+}
+ 
+.doo h2{
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+ 
+.doo:hover h2{
+  background: #42b6ff;
+}
+
+.do{
+  position: absolute;
+  top:1090px;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  background: rgba(255,255,255,0.5);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.5s;
+  box-shadow: 0 0 0 10px rgba(255,255,255,0.2)
+}
+ 
+.do:hover{
+  background: #fff;
+  box-shadow: 0 0 0 10px rgba(255,255,255,0.2)
+}
+ 
+.do:before{
+  content: '';
+  position: absolute;
+  bottom: -74%;
+  left: -120%;
+  width: 100%;
+  height: 100%;
+  background: #c62bff;
+  transition: 0.5s;
+  z-index: -1;
+  box-sizing: border-box;
+  border-top: 5px solid #f2473e;
+  transform: skewX(-5deg);
+}
+ 
+.do:hover:before{
+  left: -50%;
+}
+ 
+.do:after{
+  content: '';
+  position: absolute;
+  bottom: -74%;
+  right: -120%;
+  width: 100%;
+  height: 100%;
+  background: #ff0000;
+  transition: 0.5s;
+  z-index: -1;
+  box-sizing: border-box;
+  border-top: 5px solid #c62bff;
+  transform: skewX(-5deg);
+}
+ 
+.do:hover:after{
+  right:-50%;
+}
+ 
+.do h2{
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+ 
+.do:hover h2{
+  background: #42b6ff;
+}
+ 
+.detail{
+  position: relative;
+}
+ 
+.vs{
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  border-radius: 50%;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  margin:20px auto;
+}
+ 
+.date{
+  margin:20px 0 0;
+}
+ 
+.juve{
+  width: 200px;
+  float: left;
+  padding: 10px 20px 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+ 
+.mu{
+  width: 200px;
+  float: left;
+  padding: 10px 20px 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+ 
+.juve img, .mu img{
+  width: 100%;
+}
+ 
+h3.team{
+  padding: 15px 0 0;
+  margin-bottom: 15px;
+  text-align: right;
+}
+ 
+.juve h3.team{
+  text-align: left;
+  transform: 0.5s;
+}
+ 
+.doom:hover .juve h3.team{
+  color:#fff7f7;
+}
+ 
+.details{
+  width: 200px;
+  min-height: 200px;
+  float: left;
+  text-align: center;
+}
+
+nav{
+  font-family: 'Poppins',sans-serif;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  float:left; 
+}
+a{
+  color: rgb(255, 255, 255);
+  padding: 60px;
+  padding-left: 2px;
+  padding-top: 10px; 
+}
