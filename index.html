@@ -7,25 +7,32 @@
     </head>
     <body>
         <div class='bghitam'></div>
-        <header>
+            <header>
             <h1>LIVERPOOL</h1>
-        </header>
+    </header>
         <div class="home">
-            <a href=""><img src="zfoto1.png"></a>
+            <a href=""><img src="img/zfoto1.png"></a>
         <nav>
             <a href="index.html" style="text-decoration: none;">Home</a>
             <a href="news.html"style="text-decoration: none;">News</a>
             <a href="scedule.html" style="text-decoration: none;">Scedule</a>
-            <a href="form.html" style="text-decoration: none;">Fanbase</a>
         </nav>
-        <div class="besar">
-            <p>You'll Never Walk Alone</p>
-        </div>
-        <div class="kecil">
-            <p class="sekali">Lets go to stadiun angker anfield</p>
-        </div>
-        <a href="form.html" style="text-decoration: none;"><button class="abc kecap">Join Fanbase</button></a>
-        </div>
+            <div class="besar">
+                <p class="nama"></p>
+                <p>You'll Never Walk Alone</p>
+            </div>
+                <div class="kecil">
+                    <p class="sekali">Lets go to stadiun angker anfield</p>
+                </div>
+                    <a href="data.html" style="text-decoration: none;"><button class="abc kecap">Fanbase</button></a>
+                </div>
+
+                <script>
+                    const aa = "user_login";
+                    const aaa = document.querySelector(".nama");
+                    const data = JSON.parse(localStorage.getItem(aa));
+                    aaa.innerHTML = `Welcom  ${data.username}`;
+                  </script>
         <footer>
             <div class="footer">
             <p>copyright &copy; dibuat oleh Rayhan Fadlur Rahman </a> Instagram: <a href="https://instagram.com/reyhn_fr">@reyhn_fr</a></p>

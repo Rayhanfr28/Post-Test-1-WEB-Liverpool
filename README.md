@@ -1,9 +1,25 @@
-# Posttest 1 WEB
+## Liverpool projeck
 
-Nama: Rayhan Fadlur Rahman
-NIM : 2109116055
-Kelas : Sistem Informasi B 2021
-Website : Liverpool
+Halaman Login
+![App Screenshot](md/md1.png)
 
-Ini adalah web yang berisikan tentang informasi informasi yang berkaitan dengan club liverpool.
-Mulai dari halaman pertama yaitu halaman News terdapat berita berita terbaru mengenai klub liverpool baik itu club utama maupun club liverpool women semua berita tersebut tercantum di halaman ini, lalu ada pun halaman selanjutnya yaitu halaman Scedule di halaman ini terdapat informasi mengenai jadwal lengkap pertandingan liverpol di semua kompetisi baik premier leage maupun champions leage, dan pada halaman terakhir website ini terdapat pendaftaran komunitas fans liverpool di semua kalangan.
+Halaman Daftar Akun
+![App Screenshot](md/md2.png)
+
+Menyimpan data akun ke local storage
+![App Screenshot](md/md3.png)
+
+Menggunakan akun yang sudah didaftar untuk melakukan Login
+![App Screenshot](md/md4.png)
+
+Tampilan nama user yang ada di dalam local storage
+![App Screenshot](md/md5.png)
+
+Input data form
+![App Screenshot](md/md8.png)
+
+Simpan data ke dalam session storage
+![App Screenshot](md/md6.png)
+
+Tampilkan data yang diinput sebelumnya dari session storage
+![App Screenshot](md/md7.png)

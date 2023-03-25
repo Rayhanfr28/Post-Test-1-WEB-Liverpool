@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Data</title>
+<link rel="stylesheet" href="css/z.css">
+</head>
+
+<div class="home">
+    <nav>
+        <a href="index.html" style="text-decoration: none;">Home</a>
+        <a href="news.html"style="text-decoration: none;">News</a>
+        <a href="scedule.html" style="text-decoration: none;">Scedule</a>
+    </nav>
+        <div class="main-parent">
+            <div class="form-wrap">
+            <body class="bodyakun">
+                <div class="details_data" id="data">
+                <h1>Information</h1>
+            </div>
+            <script>
+        const storageKey = 'data_course';
+        const data = JSON.parse(sessionStorage.getItem(storageKey));
+        const container = document.getElementById('data');
+        const ul = document.createElement('ul');
+        data.forEach((e) => {
+        const li = document.createElement('li');
+        li.innerHTML = `
+        <strong>Name:</strong> ${e.nama}<br>
+        <strong>Email:</strong> ${e.email}<br>
+        <strong>Country:</strong> ${e.kelas}<br>
+        <strong>Fans:</strong> ${e.course.join(', ')}<br>
+        <strong>Gender:</strong> ${e.gender}<br>
+        <strong>Comment:</strong> ${e.reason}<br>
+        `;
+        ul.appendChild(li);
+        });
+    container.appendChild(ul);
+</script>
+</div>
+</div>
+</body>
+</html>

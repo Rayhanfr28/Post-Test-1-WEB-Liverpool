@@ -42,7 +42,7 @@ a{
 
 body{
 
-        background-image: url(zfoto5.jpg); 
+        background-image: url(img/zfoto5.jpg); 
         background-size: cover; height: 90vh; 
         opacity: 90%; z-index: -2; 
         background-position: 0%;
